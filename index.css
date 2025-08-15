@@ -1,0 +1,19 @@
+
+ body {
+background-image: url("Untitled design.png");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+}
+.animated-border {
+  border: 6px solid #28a745;   /* starting color */
+  animation: borderColors 3s linear infinite;
+}
+@keyframes borderColors {
+  0%   { border-color: #28a745; }  /* green */
+  25%  { border-color: #dd0bdd; }  /* cyan */
+  50%  { border-color: #ff4d07; }  /* yellow */
+  75%  { border-color: #79dcee; }  /* red */
+  100% { border-color: #0602ff; }  /* back to green */
+}
